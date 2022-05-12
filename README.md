@@ -12,13 +12,13 @@ infer folder contains the dockerized inference script and other files needed to 
 
 ### To run the training.
 1. set the seed value in the ./train/config.py to 0
-2. ```shell bash train.sh ```
+2. ```bash train.sh ```
 
 ### To run the inference
 1. set the name and weight's file_name in the ./infer/config.py 
 2. place the images in the ./infer/input folder
 3. adjust the global paths to the input and output folder in infer.sh
-4.  ```shell bash infer.sh ```
+4.  ```bash infer.sh ```
 
 ### Note:
 The inference container uses bind mounts for input and output directories and the global paths for the input and output directories need to set according to your machine.
