@@ -1,5 +1,8 @@
 This drive folder contains the logs, training results and weights of the experiment that I ran using experiments.ipynb file on colab. You can replicate the experiment by either running the notebook or by running the train.sh which create a docker container and runs the training inside it. <a href="https://drive.google.com/drive/folders/1-IiQ__GbyH5fu3wymXT1hLmBHgmLbozm?usp=sharing"> Drive Folder </a>.
 
+Experiments.ipynb is the simplest way to run the experiments, but need to install dependencies.
+train folder contains the dockerized training script and other files needed to run the training
+infer folder contains the dockerized inference script and other files needed to run the inference
 
 ### run inference using weights downloaded from drive
 1. set the name and weight's file_name in the ./infer/config.py 
